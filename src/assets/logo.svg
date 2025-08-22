@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 180 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <use id="house-chimney-solid-full.svg" xlink:href="#_Image1" x="13.843" y="3.628" width="28.801px" height="28.797px" transform="matrix(0.993124,0,0,0.993006,0,0)"/>
+    <g transform="matrix(3.00558,0,0,3.00558,-247.015,-51.2365)">
+        <text x="97.8px" y="27.2px" style="font-family:'Poppins-Bold', 'Poppins';font-weight:700;font-size:12px;fill:white;">Haven</text>
+    </g>
+    <defs>
+        <image id="_Image1" width="29px" height="29px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABf0lEQVRIieWWP0sDMRiHf9cWKXbxz9CunR0VBF1F6uLgR3DRoejiN1B0cCylLg666iq4dNPJxYpjV5VCBUEUHY7HoblS6117aZsuPkvgfZP3SXKXEMkSIANUgBfTTtrWsBVOA7f85gaYciXMATXCuQdyHX09YB5YA5aBxCDCPFCPEAbUgbzpf9mVu7MSA3PAcx9hwBOwGpFbiitcBF5jCgO+I+KFoG7kkoEVSVVJM7G3pcVEvw6hUmBD0pWkjKUwFn+kwKakC8WY8UikwJ6k07DJjFxK61wdSjp26CoAnowwCZxY/qGDUgGSKUlHkrYcrrCTbUnvHtCUNDsmqSQ1E2qdxXFSFZAG1oGS4+9ZMp50Ww8UHEv7X4MusZV+SCpLWpCUN23ZxO2Jub07EWN3XW3vl6TziNyZycfCRtrwPO8tLGHiDRfSkfE/pZ+OXe36qY7ggyRfUjJiUBa47lE02yPnS6qFZoCDYe65HuxHTgdIAEXgEfCHFPmmTpGuh/YPf6CtYs8jTm4AAAAASUVORK5CYII="/>
+    </defs>
+</svg>
