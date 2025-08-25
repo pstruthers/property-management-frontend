@@ -43,10 +43,10 @@ const handleFileChange = (event) => {
 const handleSubmit = async () => {
   try {
     const formData = new FormData()
-    formData.append('address[address]', form.address.address)
-    formData.append('address[city]', form.address.city)
-    formData.append('address[state]', form.address.state)
-    formData.append('address[zip]', form.address.zip)
+
+    // Encode the entire address object as JSON
+    formData.append('address', JSON.stringify(form.address))
+
     formData.append('beds', form.beds)
     formData.append('baths', form.baths)
     formData.append('sqft', form.sqft)
@@ -55,15 +55,18 @@ const handleSubmit = async () => {
       formData.append('photo', form.photo)
     }
 
-    const response = await axios.post('https://property-management-backend-t28g.onrender.com/properties/add', formData, {
-      headers: { 'Content-Type': 'multipart/form-data' }
-    })
+    const response = await axios.post(
+      'https://property-management-backend-t28g.onrender.com/properties/add',
+      formData,
+      { headers: { 'Content-Type': 'multipart/form-data' } }
+    )
     console.log('Property added:', response.data)
     router.push('/properties')
   } catch (error) {
     console.error('Error adding property:', error)
   }
 }
+
 </script>
 
 <template>
