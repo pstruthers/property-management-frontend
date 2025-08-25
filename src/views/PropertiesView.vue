@@ -32,7 +32,7 @@ onMounted(async () => {
       <div v-else class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div v-for="property in properties" :key="property.id"
           class="relative w-full h-64 rounded-lg overflow-hidden shadow-lg">
-          <img :src="`http://localhost:8765/uploads/${property.photo}`" alt="Image" class="w-full h-full object-cover">
+          <img :src="property.photo" alt="Image" class="w-full h-full object-cover">
           <div class="absolute inset-0 bg-black/50 flex flex-col justify-between p-4 text-white">
             <div class="flex items-center">
               <font-awesome-icon icon="map-marker-alt" class="opacity-75" />
