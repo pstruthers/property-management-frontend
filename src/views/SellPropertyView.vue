@@ -45,7 +45,10 @@ const handleSubmit = async () => {
     const formData = new FormData()
 
     // Encode the entire address object as JSON
-    formData.append('address', JSON.stringify(form.address))
+    formData.append('address', form.address.address)
+    formData.append('city', form.address.city)
+    formData.append('state', form.address.state)
+    formData.append('zip', form.address.zip)
 
     formData.append('beds', form.beds)
     formData.append('baths', form.baths)
