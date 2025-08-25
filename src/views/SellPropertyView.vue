@@ -55,7 +55,7 @@ const handleSubmit = async () => {
       formData.append('photo', form.photo)
     }
 
-    const response = await axios.post('http://localhost:8765/properties/add', formData, {
+    const response = await axios.post('https://property-management-backend-t28g.onrender.com/properties/add', formData, {
       headers: { 'Content-Type': 'multipart/form-data' }
     })
     console.log('Property added:', response.data)
